@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Oswald:wght@200&family=Poppins:wght@300&display=swap');
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+}
+
+.container{
+    text-align: center;
+    border: 1px solid;
+    border-radius: 20px;
+    box-shadow: 10px 15px 8px #ccc;
+    margin: 100px auto;
+    background-color: #32A0D6 ;
+    width: 50%;
+    height: 60vh;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+form {
+    
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+} 
+form input{
+    text-align: center;
+    border-radius : 40px;
+    border: 1px solid #ccc;
+    height: 40px;
+    color: #00009;
+    outline: none;
+    width: 300px;
+    margin: 10px 0 10px 0;
+}
+form button {
+    background-color: blueviolet;
+    outline: none;
+    color: aliceblue;
+    height: 30px ;
+    border-radius: 10px;
+    width: 300px ;
+    margin: 20px 0 0 0 ;
+    cursor: pointer;;
+}
+form button:hover{
+    background-color :blue;
+    transition: 0.5s ease-in-out;
+}
+.hasil {
+    margin: 30px auto;
+    height: 50px;
+    width: 60%;
+   
+    border: 1px solid;
+}
+.hasil p {
+    font-size: 12px;
+}
